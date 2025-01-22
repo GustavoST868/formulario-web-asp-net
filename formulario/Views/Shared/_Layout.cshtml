@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/formulario.styles.css" asp-append-version="true" />
+    <link rel="icon" href="~/icon/flaticon.ico.png" />
+</head>
+<body>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="main">
+       <p class="name">Nome</p>
+        <input id="input-name" class="input-name" />
+        <p class="cpf">CPF</p>
+        <input id="cpf" class="input-cpf" />
+        <p class="rg">RG</p>
+        <input id="rg" class="input-rg" />
+        <p class="e-mail">E-mail</p>
+        <input id="e-mail" class="input-e-mail" />
+        <p class="date-birth">Data de Nascimento</p>
+        <input id="date-birth" class="input-databirth" type="date" />
+        <p class="gender">Gênero</p>
+        <select id="input-gender" class="input-gender">
+            <option value="masculine">Masculino</option>
+            <option value="female">Feminino</option>
+            <option value="other">Outro</option>
+        </select>
+        <p class="nationality">Nacionalidade</p>
+        <input id="input-nationality" class="input-nationality" />
+        <p id="marital-status" class="marital-status">Estado Civil</p>
+        <select class="input-marital-status" id="input-marital-status">
+            <option value="single">Solteiro</option>
+            <option value="married">Casado</option>
+            <option value="divorced">Divorciado</option>
+            <option value="widower">Viúvo</option>
+        </select>
+        <button class="send-button" id="send-button">Enviar</button>
+    </div>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

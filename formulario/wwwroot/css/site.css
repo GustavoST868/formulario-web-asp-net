@@ -1,0 +1,182 @@
+html {
+  overflow: hidden;
+  width:100%;
+  height:100%;
+}
+
+body {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    height: 100%;
+    background-color:none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 80%;
+    border: 1px solid #87878759;
+    border-radius: 10px;
+}
+
+.container{
+    display:none;
+}
+
+.name {
+    margin-left: 10%;
+    margin-top: 7%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-name {
+    outline:none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height:4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.date-birth {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-databirth {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.gender {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-gender {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.nationality {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-nationality {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.marital-status {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-marital-status {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.e-mail {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-e-mail {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.cpf {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-cpf {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.send-button {
+    outline: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 75%;
+    height: 5%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}
+
+.rg {
+    margin-left: 10%;
+    margin-top: 4%;
+    font-size: 110%;
+    color: dimgray;
+}
+
+.input-rg {
+    outline: none;
+    margin-left: 10%;
+    margin-top: -3%;
+    width: 75%;
+    height: 4%;
+    text-align: center;
+    border: 1px solid #87878759;
+    border-radius: 5px;
+}

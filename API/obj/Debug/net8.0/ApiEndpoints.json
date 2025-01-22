@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "API.Controllers.TaskController",
+    "Method": "GetPessoa",
+    "RelativePath": "api/Task",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.TaskController",
+    "Method": "PostPeople",
+    "RelativePath": "api/Task",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "API.Controllers.TaskController\u002BPersonData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.TaskController",
+    "Method": "DeletePessoa",
+    "RelativePath": "api/Task",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "API.Controllers.TaskController\u002Bdelete_people",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.TaskController",
+    "Method": "EditPeople",
+    "RelativePath": "api/Task",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "API.Controllers.TaskController\u002BPersonData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
