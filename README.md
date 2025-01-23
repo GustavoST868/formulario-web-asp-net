@@ -1,5 +1,5 @@
 # formulario-web-asp-net
-Crie um formulário simples que consome uma API, ambos ASP .NET. A API gerencia a troca de informações e operações entre o banco de dados e a aplicação Web. Implementei métodos e rotas relacionados as operações básicas(CRUD).
+Crie um formulário simples que consome uma API, ambos ASP .NET. A API gerencia a troca de informações e operações entre o banco de dados PostgreSQL e a aplicação Web. Implementei métodos e rotas relacionados as operações básicas(CRUD).
 
 Formulário:
 ![Captura de tela 2025-01-22 134559](https://github.com/user-attachments/assets/ab56d0ae-d036-46ac-bd21-3e320bad439d)
